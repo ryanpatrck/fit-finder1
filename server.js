@@ -18,7 +18,7 @@
 var OpenTok = require('opentok');
 
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/reactuserslist");
-//const seeds = require("./Scripts/seeduserDB");
+const seeds = require("./Scripts/seeduserDB");
 
 // var apiKey = process.env.API_KEY;
 // var apiSecret= process.env.API_SECRET;

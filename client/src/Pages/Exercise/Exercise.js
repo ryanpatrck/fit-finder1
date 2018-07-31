@@ -19,9 +19,8 @@ class Exercise extends Component {
             <Col s={6}>
               <Subscriber />
               <Publisher />
-
             </Col>
-            <Col m={6} s={6}>
+          <Col m={6} s={6}>
               <Card className='exercises' textClassName='grey-text'  >
                 <p>
                   <Row>

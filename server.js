@@ -18,7 +18,7 @@
 var OpenTok = require('opentok');
 
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/reactuserslist");
-const seeds = require("./Scripts/seeduserDB");
+// const seeds = require("./Scripts/seeduserDB");
 
 // var apiKey = process.env.API_KEY;
 // var apiSecret= process.env.API_SECRET;
@@ -30,8 +30,7 @@ const app = express();
 // Cors is required for access
 app.use((req, res, next) => {
     res.header("Access-Control-Allow-Origin", "*");
-    
-
+    res.header("Access-Control-Allow-Methods", "POST, PUT, GET, OPTIONS")
     res.header('Access-Control-Allow-Headers', 'Content-Type, Authorization, Origin, X-Requested-With');
   
     next();

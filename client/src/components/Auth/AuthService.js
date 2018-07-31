@@ -11,7 +11,7 @@ export default class AuthService {
 
     login = (username, password) => {
         // Get a token from api server using the fetch api
-        return this.fetch('/login', {
+        return this.fetch(`${this.domain}/login`, {
             method: 'POST',
             body: JSON.stringify({
                 username,
@@ -33,7 +33,7 @@ export default class AuthService {
     isTokenExpired(token) {
         try {
             const decoded = decode(token);
-            if (decoded.exp < Date.now() / 1000) { // Checking if token is expired. N
+            if (decoded.exp < Date.now() / 1000) { // Checking if token is expired. 
                 return true;
             }
             else

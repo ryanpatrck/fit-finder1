@@ -19,7 +19,7 @@ class Home extends Component {
       <div className="Wrapper">
         <Nav history={this.props.history} />
         <Row>
-        <h1 className="Fitfinder"> FitFinder </h1>
+          <h1 className="Fitfinder"> FitFinder </h1>
         </Row>
         <Parallax imageSrc={Gym} />
         <Col m={6} s={12}>
@@ -39,8 +39,8 @@ class Home extends Component {
             </p>
           </Card>
         </Col>
-        <Parallax imageSrc={Gym}/>
-          <Col m={6} s={12}>
+        <Parallax imageSrc={Gym} />
+        <Col m={6} s={12}>
           <Card className='' textClassName='white-text' title='Trainer Benefits' actions={[<a href='/exercise'>Start Training Session!</a>]}>
             <p>
               <Row><Icon>brightness_1</Icon> Makes finding clients easy by pairing with clients</Row>

@@ -46,8 +46,8 @@ class Home extends Component {
               <Row><Icon>brightness_1</Icon> Makes finding clients easy by pairing with clients</Row>
               <Row><Icon>brightness_1</Icon> Open communication with clients that are matched </Row>
               <Row><Icon>brightness_1</Icon> Lists exercises on page to help with live session for clients</Row>
-              <Row><Icon></Icon> Find clients that better suits your training style </Row>
-              <Row><Icon></Icon> Able to train from the comfort of your home </Row>
+              <Row><Icon>brightness_1</Icon> Find clients that better suits your training style </Row>
+              <Row><Icon>brightness_1</Icon> Able to train from the comfort of your home </Row>
             </p>
           </Card>
         </Col>

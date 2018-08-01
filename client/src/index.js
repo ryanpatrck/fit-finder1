@@ -18,10 +18,10 @@ import {BrowserRouter as Router, Route} from 'react-router-dom'
 ReactDOM.render(<Router>
     <div className='app'>
         <Route path='/'  component={App} />
-        <Route exact path='/home'  component={Home} />
-        <Route exact path='/login' component={Login} />
-        <Route exact path='/signup' component={Signup} />
-        <Route exact path="/api/users" component={Goals} />
+        <Route  path='/home'  component={Home} />
+        <Route  path='/login' component={Login} />
+        <Route  path='/signup' component={Signup} />
+        <Route  path="/api/users" component={Goals} />
         <Route path='/matching' component={Matching} />
         <Route path='/goals' component={Goals} />
         <Route path="/view" component={View} />

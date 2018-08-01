@@ -5,16 +5,16 @@ import { Row, Input, Button, Card, Col } from 'react-materialize'
 import CardPanel from '../../../../node_modules/react-materialize/lib/CardPanel';
 
 class Signup extends React.Component {
-    constructor() {
-        super()
-        this.handleChange = this.handleChange.bind(this);
-        this.handleFormSubmit = this.handleFormSubmit.bind(this);
-        this.Auth = new AuthService();
-    }
-    componentWillMount() {
-        if (this.Auth.loggedIn())
-            this.props.history.replace('/');
-    }
+    // constructor() {
+    //     super()
+    //     this.handleChange = this.handleChange.bind(this);
+    //     this.handleFormSubmit = this.handleFormSubmit.bind(this);
+    //     this.Auth = new AuthService();
+    // }
+    // componentWillMount() {
+    //     if (this.Auth.loggedIn())
+    //         this.props.history.replace('/');
+    // }
     render() {
         return (
           <div className="wrapper">
@@ -52,7 +52,7 @@ class Signup extends React.Component {
                                     type="text"
                                     label="Username"
                                     name="username"
-                                    onChange={this.handleChange}
+                                    // onChange={this.handleChange}
                                 />
                                 </Col>
                                 </Row>
@@ -64,7 +64,7 @@ class Signup extends React.Component {
                                     type="password"
                                     label="Password"
                                     name="password"
-                                    onChange={this.handleChange}
+                                    // onChange={this.handleChange}
                                 />
                                 </Col>
                                 </Row>

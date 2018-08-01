@@ -24,7 +24,7 @@ class Exercise extends Component {
               <Card className='exercises' textClassName='grey-text'  >
                 <p>
                   <Row>
-                    <h2> Exercises </h2>
+                    <h3> Exercises </h3>
                     </Row>
                   <Row className='one'>
                     <Input className='group2' name='group1' type='checkbox' value='red' label='20 Pushups' />

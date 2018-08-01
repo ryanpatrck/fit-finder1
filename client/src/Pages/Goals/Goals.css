@@ -8,6 +8,11 @@ h1.Info {
     background-color: white;
 }
 form.Goals {
+    background-color: #30415D;
+    width: 60%;
+    margin: 0 auto;
+}
+div.Goals.black-text.card {
     background-color: white;
     width: 60%;
     margin: 0 auto;

@@ -63,13 +63,13 @@ class Home extends Component {
                             </Row>
                             <Row className='Age'>
                                 <Col s={4}>
-                                    <Input s={4} name='age' value={this.state.age} onChange={this.handleInputChange} label="Age" />
+                                    <Input s={6} name='age' value={this.state.age} onChange={this.handleInputChange} label="Age" />
                                 </Col>
                                 <Col s={4}>
                                     <Input s={6} name='height' value={this.state.height} onChange={this.handleInputChange}  label="Height" />
                                 </Col>
                                 <Col s={4}>
-                                    <Input s={4} name='weight' value={this.state.weight} onChange={this.handleInputChange} label="Weight" />
+                                    <Input s={6} name='weight' value={this.state.weight} onChange={this.handleInputChange} label="Weight" />
                                 </Col>
                             </Row>
                             <Row className='Help'>
@@ -108,10 +108,10 @@ class Home extends Component {
                                     <h5> Where do you rate health in your life? </h5>
                                 </Col>
                                 <Col s={4}>
-                                    <Input s={12} name='group2' type='checkbox' value='red' label='Low Priority' />
+                                    <Input s={6} name='group1' type='checkbox' value='red' label='Low Priority' />
                                 </Col>
                                 <Col s={4}>
-                                    <Input s={12} name='group2' type='checkbox' value='red' label='Medium Priority' />
+                                    <Input s={6} name='group1' type='checkbox' value='red' label='Medium Priority' />
                                 </Col>
                                 <Col s={4}>
                                     <Input name='group2' type='checkbox' value='red' label='High Priority' />
@@ -121,13 +121,13 @@ class Home extends Component {
                                 <Col>
                                     <h5> How committed are you to your fitness goals? </h5>
                                 </Col>
-                                <Col s={3}>
+                                <Col s={4}>
                                     <Input name='group1' type='checkbox' value='red' label='Very' />
                                 </Col>
-                                <Col s={3}>
+                                <Col s={4}>
                                     <Input name='group1' type='checkbox' value='red' label='Seriously' />
                                 </Col>
-                                <Col s={3}>
+                                <Col s={4}>
                                     <Input name='group1' type='checkbox' value='red' label='Not Very' />
                                 </Col>
                             </Row>

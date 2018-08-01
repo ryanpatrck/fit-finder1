@@ -26,6 +26,15 @@ div.signup.black-text.card {
     background-color: white !important;
     
 }
+/* .card{
+    background-color: #fff;
+    border-radius: 15px;
+    padding-right: 40px;
+    width: 40%;
+    margin: 0 auto;
+    
+
+} */
 
 .card > form{
     display: flex;

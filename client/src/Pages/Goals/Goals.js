@@ -121,13 +121,13 @@ class Home extends Component {
                                 <Col>
                                     <h5> How committed are you to your fitness goals? </h5>
                                 </Col>
-                                <Col s={4}>
+                                <Col s={3}>
                                     <Input name='group1' type='checkbox' value='red' label='Very' />
                                 </Col>
-                                <Col s={4}>
+                                <Col s={3}>
                                     <Input name='group1' type='checkbox' value='red' label='Seriously' />
                                 </Col>
-                                <Col s={4}>
+                                <Col s={3}>
                                     <Input name='group1' type='checkbox' value='red' label='Not Very' />
                                 </Col>
                             </Row>

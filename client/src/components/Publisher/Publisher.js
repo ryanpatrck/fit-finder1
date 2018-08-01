@@ -8,13 +8,13 @@ class Publisher extends React.Component {
     this.subscriberProperties = {
       preferredFrameRate: 15,
       showControls: false,
-      width: 600, 
-      height: 520,
+      width: 500, 
+      height: 500,
     };
 
     this.publisherProperties ={
-      width: 200, 
-      height: 220,
+      width: 500, 
+      height: 500,
     }
  
     this.subscriberEventHandlers = {

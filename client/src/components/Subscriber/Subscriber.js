@@ -9,13 +9,13 @@ class Subscriber extends React.Component {
     this.subscriberProperties = {
       preferredFrameRate: 15,
       showControls: false,
-      width: 700, 
-      height: 420,
+      width: 1020, 
+      height: 1020,
     };
 
     this.publisherProperties ={
-      width: 300, 
-      height: 520,
+      width: 1020, 
+      height: 1020,
     }
  
     this.subscriberEventHandlers = {

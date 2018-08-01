@@ -13,8 +13,8 @@ class Publisher extends React.Component {
     };
 
     this.publisherProperties ={
-      width: 1000, 
-      height: 500,
+      width: 200, 
+      height: 200,
     }
  
     this.subscriberEventHandlers = {

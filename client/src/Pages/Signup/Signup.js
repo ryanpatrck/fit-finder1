@@ -71,11 +71,7 @@ class Signup extends React.Component {
                            <Row>
                        
                         
-                        <input
-                            className="form-submit1"
-                            type="submit"
-                            value="Create Account"
-                        />
+                           <Button waves='light' node='a' href='/home'> <Link className="form-link" to="/home"> </Link>Create Account </Button>
                         </Row>
                     </form>
                 </CardPanel >

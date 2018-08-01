@@ -9,7 +9,7 @@ class Subscriber extends React.Component {
     this.subscriberProperties = {
       preferredFrameRate: 15,
       showControls: false,
-      width: 400, 
+      width: 700, 
       height: 420,
     };
 

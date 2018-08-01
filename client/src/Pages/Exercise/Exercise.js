@@ -17,7 +17,6 @@ class Exercise extends Component {
         <div className="container">
           <Row>
             <Col s={6}>
-              <Subscriber />
               <Publisher />
             </Col>
           <Col m={6} s={6}>

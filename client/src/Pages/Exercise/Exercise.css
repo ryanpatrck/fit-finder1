@@ -10,6 +10,8 @@ div.container {
 div.exercises.card {
    background-color: white;
    color: white;
+   width: 40%;
+   float: right;
 }
 div.card-content.grey-text{
    background-color: #fffef9;

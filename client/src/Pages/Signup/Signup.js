@@ -1,6 +1,7 @@
 import React from 'react';
 import './Signup.css';
 import AuthService from '../../components/Auth/AuthService';
+import { Link } from 'react-router-dom';
 import { Row, Input, Button, Card, Col } from 'react-materialize'
 import CardPanel from '../../../../node_modules/react-materialize/lib/CardPanel';
 

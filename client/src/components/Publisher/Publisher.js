@@ -32,8 +32,8 @@ class Publisher extends React.Component {
       <OTSession apiKey='46156272' sessionId="2_MX40NjE1NjI3Mn5-MTUzMjUyOTQ1MDMxMn4rNERmN1F4dkdseklKKys1cVAxejlqeDJ-UH4" token="T1==cGFydG5lcl9pZD00NjE1NjI3MiZzaWc9MThiZmJhZjEyOWFlYzMzZGQ0MGI1ZDIwMmMyNTRmYmM3ODQ3MzNmMzpzZXNzaW9uX2lkPTJfTVg0ME5qRTFOakkzTW41LU1UVXpNalV5T1RRMU1ETXhNbjRyTkVSbU4xRjRka2RzZWtsS0t5czFjVkF4ZWpscWVESi1VSDQmY3JlYXRlX3RpbWU9MTUzMjUyOTQ4MiZub25jZT0wLjk5Nzk1NTY1NzY5Nzk4Nzgmcm9sZT1wdWJsaXNoZXImZXhwaXJlX3RpbWU9MTUzNTEyMTQ4MSZpbml0aWFsX2xheW91dF9jbGFzc19saXN0PQ==">
 
         <OTSubscriber
-         properties={this.publisherProperties}
-         eventHandlers={this.publisherEventHandlers}
+         properties={this.subscriberProperties}
+         eventHandlers={this.subscriberEventHandlers}
         />
         <OTStreams>
           <OTPublisher

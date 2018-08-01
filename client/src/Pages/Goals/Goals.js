@@ -98,11 +98,10 @@ class Home extends Component {
                                             <Input s={12} name='group1' type='checkbox' value='red' label='Rehabilitate an Injury' />
                                         </Col>
                                     </Row>
-                                </div>
+                                    <Input type='textarea' label='Other' s={4} />
+                               </div>
                             </Row>
-                            <Row>
-                                <Input type='textarea' label='Other' s={4} />
-                            </Row>
+                           
                             <Row className='Lifestyle'>
                                 <Col>
                                     <h5> Where do you rate health in your life? </h5>

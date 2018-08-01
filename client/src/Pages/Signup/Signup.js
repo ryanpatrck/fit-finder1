@@ -2,6 +2,7 @@ import React from 'react';
 import './Signup.css';
 import AuthService from '../../components/Auth/AuthService';
 import { Row, Input, Button, Card, Col } from 'react-materialize'
+import CardPanel from '../../../../node_modules/react-materialize/lib/CardPanel';
 
 class Signup extends React.Component {
     constructor() {
@@ -18,13 +19,8 @@ class Signup extends React.Component {
         return (
           <div className="wrapper">
             <div className="center">
-                <Card className="signup black-text">
-                    <Row className="form-header">
-                        <Col s={10}>
-                           
-                        </Col>
-                    </Row>
-                    {/* User Trainer Selection */}
+                <CardPanel className="signup black-text">
+                {/* User Trainer Selection */}
                     <Row>
                         <Col>
                             <h5> Sign-Up </h5>
@@ -38,22 +34,20 @@ class Signup extends React.Component {
                     </Row>
                     {/* First Name and Last Name */}
                     <Row>
-                        <Col>
-                            <Input s={6} label="First Name" />
-                            <Input s={6} label="Last Name" />
+                        <Col s={12}>
+                            <Input type="email" label="Email" s={8} />
                         </Col>
                     </Row>
                     <Row>
                         <Col s={12}>
-                            <Input type="email" label="Email" s={6} />
-                            <Input label="Phone Number" s={6} />
+                    <Input label="Phone Number" s={8} />
                         </Col>
                     </Row>
                     <form onSubmit={this.handleFormSubmit}>
                         <Row>
                             <Col s={12}>
                                 <Input
-                                    s={6}
+                                    s={8}
                                     className="form-item"
                                     type="text"
                                     label="Username"
@@ -65,7 +59,7 @@ class Signup extends React.Component {
                                 <Row>
                                     <Col s={12}>
                                  <Input
-                                    s={6}
+                                    s={8}
                                     className="form-item"
                                     type="password"
                                     label="Password"
@@ -84,8 +78,7 @@ class Signup extends React.Component {
                         />
                         </Row>
                     </form>
-                    
-                </Card >
+                </CardPanel >
             </div>
         </div>
         )

@@ -24,14 +24,17 @@
 }
 div.signup.black-text.card {
     background-color: white !important;
+    width: 40%;
     
 }
 .card{
     background-color: #fff;
     border-radius: 15px;
-    padding: 0.8rem;
+    padding-right: 40px;
     width: 40%;
     margin: 0 auto;
+    
+
 }
 
 .card > form{
